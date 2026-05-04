@@ -23,7 +23,7 @@ export default async function HomePage() {
   const banners = (homepage?.banners ?? []).filter(Boolean);
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+    <main className="px-4 py-8 sm:px-6 sm:py-12 ml-12 mr-12">
       <HeroBanners banners={banners} />
 
       {!banners.length ? (

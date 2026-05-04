@@ -45,7 +45,7 @@ export default async function ProductPage({ params }: Props) {
   ].slice(0, 6);
 
   return (
-    <article className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+    <article className="px-4 py-8 sm:px-6 sm:py-12 ml-12 mr-12">
       <div className="grid gap-10 lg:grid-cols-2 lg:gap-14">
         <div className="space-y-4">
           <div className="relative aspect-square overflow-hidden rounded-3xl bg-zinc-100 dark:bg-zinc-900">
