@@ -33,7 +33,7 @@ export default async function HomePage() {
         >
           <div className="relative z-10 max-w-xl">
             <p className="text-sm font-medium uppercase tracking-widest text-teal-100">
-              Headless commerce
+              Headless Ecommerce
             </p>
             <h1 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
               Built with Sanity, Stripe & Next.js
